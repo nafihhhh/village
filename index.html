@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,302 +23,156 @@
 </head>
 <body class="bg-gray-50"style="background-color: #0C1D31;">
     <!-- Header & Navigation -->
-    <header class="desknav w-full shadow-md z-50"style="position: sticky; top:0; left:0; border-radius:20px; margin-top:10px; background-color:white;">
-        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <a href="#" class="text-2xl font-[''] text-primary">Poocholamadu village</a>
+    <header class="desknav">
+  <div class="container py-3 flex justify-between items-center">
+    <a href="#" class="text-2xl font-medium text-primary">Poocholamadu village</a>
 
-            <!-- Desktop Navigation -->
-            <nav class="hidden md:flex space-x-6">
-                <a href="#home" 
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Home</a>
-                <a href="#history" 
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">History</a>
-                <a href="#travel-guide" 
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Travel
-                    Guide</a>
-                    <a href="#schools" 
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Schools</a>
-                <a href="#shops" 
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Shops</a>
-                    <a href="#services"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Nearby Services</a>
-                <a href="#scenery" 
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Scenery</a>
-                <a href="#ward-member" 
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Ward
-                    Member</a>
-                    <a href="#contactus"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Contact Us</a> 
-            </nav>
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex space-x-6">
+      <a href="#home" class="font-medium text-gray-700 hover:text-primary transition-colors">Home</a>
+      <a href="#history" class="font-medium text-gray-700 hover:text-primary transition-colors">History</a>
+      <a href="#travel-guide" class="font-medium text-gray-700 hover:text-primary transition-colors">Travel Guide</a>
+      <a href="#schools" class="font-medium text-gray-700 hover:text-primary transition-colors">Schools</a>
+      <a href="#shops" class="font-medium text-gray-700 hover:text-primary transition-colors">Shops</a>
+      <a href="#services" class="font-medium text-gray-700 hover:text-primary transition-colors">Nearby Services</a>
+      <a href="#scenery" class="font-medium text-gray-700 hover:text-primary transition-colors">Scenery</a>
+      <a href="#ward-member" class="font-medium text-gray-700 hover:text-primary transition-colors">Ward Member</a>
+      <a href="#contactus" class="font-medium text-gray-700 hover:text-primary transition-colors">Contact Us</a>
+    </nav>
 
-            <!-- Mobile Menu Button -->
-            <button id="mobile-menu-button" class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
-                <i class="ri-menu-line ri-lg"></i>
-            </button>
-        </div>
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-button" class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700" style="background:none;border:none;">
+      <i class="ri-menu-line ri-lg" style="font-size: 24px;"></i>
+    </button>
+  </div>
 
-        <!-- Mobile Navigation -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
-            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
-                <a href="#home" 
-                    class="font-medium text-gray-700 hover:text-primary transition-colors py-2">Home</a>
-                <a href="#history"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors py-2">History</a>
-                <a href="#travel-guide"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors py-2">Travel Guide</a>
-                <a href="#travel-guide"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors py-2">Schools</a>
-                    <a href="#shops"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Shops</a>
-                    <a href="#services"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors">Nearby Services</a>
-                <a href="#scenery"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors py-2">Scenery</a>
-                <a href="#ward-member"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors py-2">Ward Member</a>
-                <a href="#contactus"
-                    class="font-medium text-gray-700 hover:text-primary transition-colors py-2">Contact Us</a>
-            </div>
-        </div>
-    </header>
+  <!-- Mobile Navigation -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white border-top border-gray-200">
+    <div class="container py-3 flex flex-col space-y-3">
+      <a href="#home" class="font-medium text-gray-700 hover:text-primary transition-colors">Home</a>
+      <a href="#history" class="font-medium text-gray-700 hover:text-primary transition-colors">History</a>
+      <a href="#travel-guide" class="font-medium text-gray-700 hover:text-primary transition-colors">Travel Guide</a>
+      <a href="#schools" class="font-medium text-gray-700 hover:text-primary transition-colors">Schools</a>
+      <a href="#shops" class="font-medium text-gray-700 hover:text-primary transition-colors">Shops</a>
+      <a href="#services" class="font-medium text-gray-700 hover:text-primary transition-colors">Nearby Services</a>
+      <a href="#scenery" class="font-medium text-gray-700 hover:text-primary transition-colors">Scenery</a>
+      <a href="#ward-member" class="font-medium text-gray-700 hover:text-primary transition-colors">Ward Member</a>
+      <a href="#contactus" class="font-medium text-gray-700 hover:text-primary transition-colors">Contact Us</a>
+    </div>
+  </div>
+</header>
  <div class="maindiv" style="width: 100%;">
     <!-- hero section -->
-     <section id="home" class="hero-section min-h-screen pt-20 flex items-center"style="background-color:#0C1D31;">
-        <div class="container mx-auto px-4 py-16 w-full">
-            <div class="max-w-2xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold mb-6 w-100" style="color: #f4b34b;">Welcome to Poocholamadu</h1>
-                <p class="text-xl mb-8" style="color: #f4b34b;">A hidden gem nestled among the hills and valleys where tradition meets natural beauty.</p>
-                <div class="flex flex-wrap gap-4">
-    <a href="#travel-guide">
-        <button class="bubbles">
-  <span class="text">Plan your Visit</span>
-</button>
-    </a>
-    <a href="#history">
-        <button class="bubbles100">
-  <span class="text">Explore our History</span>
-        </button>
-    </a> 
-            </div>
-                     
-    </section>
+     <section id="home" class="hero-section">
+  <div class="hero-container">
+    <div class="hero-wrapper">
+      <h1 class="hero-title">Welcome to Poocholamadu</h1>
+      <p class="hero-subtitle">A hidden gem nestled among the hills and valleys where tradition meets natural beauty.</p>
+
+      <div class="hero-buttons">
+        <a href="#travel-guide">
+          <button class="bubbles"><span class="text">Plan your Visit</span></button>
+        </a>
+        <a href="#history">
+          <button class="bubbles100"><span class="text">Explore our History</span></button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
     <hr style="height:5px;background-color: black;">
     
-    <!-- History Section -->
-    <section id="history" class="py-20" style="background-color: #0C1D31;">
-        <div class="container mx-auto px-4 ">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #f4b34b;">Our Rich History</h2>
-                <p class="text-lg max-w-3xl mx-auto" style="color: #f4b34b;">Discover the fascinating journey of Poocholamadu through centuries of cultural heritage and historical milestones including the war for independent India.</p>
+   <section id="history" class="history-section text-center">
+  <div class="container">
+    <h2 class="history-title display-5 mb-3">Our Rich History</h2>
+    <p class="history-desc lead">
+      Discover the fascinating journey of Poocholamadu through centuries of cultural heritage and historical milestones including the war for independent India.
+    </p>
+
+    <!-- Timeline Items -->
+    <div class="row justify-content-center text-start">
+      <!-- Item 1 -->
+      <div class="col-lg-10 timeline-card">
+        <h3>About</h3>
+        <div class="row align-items-center">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <img src="mvolcano.png" alt="About Poocholamadu" class="timeline-img">
+          </div>
+          <div class="col-md-8">
+            <p>Poocholamadu is a village in Kannamangalam in the Malappuram district, state of Kerala, India. It is part of the Gram Panchayat government.</p>
+            <div class="highlight-box">
+              Historical records show that the village had the most fighters against British in the present Vengara region.
             </div>
-            
-            <div class="max-w-4xl mx-auto">
-                <!-- Timeline -->
-                <div class="space-y-12"style="background-color:#0C1D31;">
-                    <!-- Timeline Item 1 -->
-                     <button class="uiverse">
-  <div class="wrapper22">
-    <span> <div class="bgblue">
-                      <div class="card">
-                    <div class="timeline-item relative pl-16">
-                        <div class="timeline-dot">
-                            <i class="ri-ancient-gate-line"></i>
-                        </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-900">About</h3>
-                            <div class="flex flex-col md:flex-row gap-6">
-                                <div class="md:w-1/3">
-                                    <img src="mvolcano.png" class="w-full h-auto rounded-lg object-cover shadow-md">
-                                </div>
-                                <div class="md:w-2/3">
-                                    <p class="mb-4 text-gray-900">Poocholamadu is a village in Kannamangalam in the Malappuram district, state of Kerala, India. It is part of the Gram Panchayat government. It is also included in Vengara Assembly constituency and Malappuram Lokhasabha constituency.</p>
-                                    <div class="bg-blue-50 border-l-4 border-primary p-4 rounded-r-lg">
-                                        <p class="text-sm italic  text-gray-900">Historical records show that the village had the most fighters against british in the present Vengara region.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                      </div></span>
-    <div class="circle circle-12"></div>
-    <div class="circle circle-11"></div>
-    <div class="circle circle-10"></div>
-    <div class="circle circle-9"></div>
-    <div class="circle circle-8"></div>
-    <div class="circle circle-7"></div>
-    <div class="circle circle-6"></div>
-    <div class="circle circle-5"></div>
-    <div class="circle circle-4"></div>
-    <div class="circle circle-3"></div>
-    <div class="circle circle-2"></div>
-    <div class="circle circle-1"></div>
-  </div>
-</button>
-                    
-                    <!-- Timeline Item 2 --> 
-                     <button class="uiverse">
-  <div class="wrapper22">
-    <span><div class="bgblue">
-                      <div class="card">
-                    <div class="timeline-item relative pl-16">
-                        <div class="timeline-dot">
-                            <i class="ri-building-line"></i>
-                        </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-900">Geography</h3>
-                            <div class="flex flex-col md:flex-row gap-6">
-                                <div class="md:w-1/3">
-                                    <img src="m5.png" class="w-full h-auto rounded-lg object-cover shadow-md">
-                                </div>
-                                <div class="md:w-2/3">
-                                    <p class="mb-4 text-gray-900">Poocholamad is 2.065 km away from Vengara and 1.36816 km from Achanambalam town. The village shares borders with Cheroor on the east side, Vettuthod, Gandhikunnu on the south side, Muttumpuram on the west side, and Achanambalam on the northside.</p>
-                                    <div class="bg-blue-50 border-l-4 border-primary p-4 rounded-r-lg">
-                                        <p class="text-sm italic text-gray-900">The village is mainly a slope from west to east</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        </div>
-                      </div></span>
-    <div class="circle circle-12"></div>
-    <div class="circle circle-11"></div>
-    <div class="circle circle-10"></div>
-    <div class="circle circle-9"></div>
-    <div class="circle circle-8"></div>
-    <div class="circle circle-7"></div>
-    <div class="circle circle-6"></div>
-    <div class="circle circle-5"></div>
-    <div class="circle circle-4"></div>
-    <div class="circle circle-3"></div>
-    <div class="circle circle-2"></div>
-    <div class="circle circle-1"></div>
-  </div>
-</button>
-                    
-                    <!-- Timeline Item 3 -->
-                     <button class="uiverse">
-  <div class="wrapper22">
-    <span> <div class="bgblue">
-                      <div class="card">
-                    <div class="timeline-item relative pl-16">
-                        <div class="timeline-dot">
-                            <i class="ri-train-line"></i>
-                        </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-900">Towered Up history</h3>
-                            <div class="flex flex-col md:flex-row gap-6">
-                                <div class="md:w-1/3">
-                                    <img src="https://th-i.thgim.com/public/news/national/kerala/1c9v03/article37450640.ece/alternates/LANDSCAPE_1200/12tvki-masjid" alt="Industrial Revolution" class="w-full h-auto rounded-lg object-cover shadow-md">
-                                </div>
-                                <div class="md:w-2/3">
-                                    <p class="mb-4 text-gray-900">Poocholamadu has the great history of participation in the Indian Inpendence war.</p>
-                                    <div class="bg-blue-50 border-l-4 border-primary p-4 rounded-r-lg">
-                                        <p class="text-sm text-gray-900 italic">many sacrifices and deaths happened in history of Poocholamadu. And the remains are still preserved by the social groups.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                      </div></span>
-    <div class="circle circle-12"></div>
-    <div class="circle circle-11"></div>
-    <div class="circle circle-10"></div>
-    <div class="circle circle-9"></div>
-    <div class="circle circle-8"></div>
-    <div class="circle circle-7"></div>
-    <div class="circle circle-6"></div>
-    <div class="circle circle-5"></div>
-    <div class="circle circle-4"></div>
-    <div class="circle circle-3"></div>
-    <div class="circle circle-2"></div>
-    <div class="circle circle-1"></div>
-  </div>
-</button>
-                    
-                    <!-- Timeline Item 4 -->
-                     <button class="uiverse">
-  <div class="wrapper22">
-    <span>  <div class="bgblue">
-                      <div class="card">
-                    <div class="timeline-item relative pl-16">
-                        <div class="timeline-dot">
-                            <i class="ri-earth-line"></i>
-                        </div>
-                            <h3 class="text-xl text-gray-900 font-bold mb-2">Jama Masjid </h3>
-                            <div class="flex flex-col md:flex-row gap-6">
-                                <div class="md:w-1/3">
-                                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcY6VQ5HTOgVTiqQdP7P5k1zVIGXfaPJvlLG-9q-FYYf-kJQWR6yh39e4j_ix_9Gjtdu0UcVeuqe4X0rnGo66CH7hfVnR2acfhO3fuR2YPM-8YT6NplPRXpccBCzpMpVQwp34ooA=s1360-w1360-h1020-rw" alt="Heritage Preservation" class="w-full h-auto rounded-lg object-cover shadow-md">
-                                </div>
-                                <div class="md:w-2/3">
-                                    <p class="text-gray-900 mb-4">Poocholamadu mosque was establised in the year of 1915.</p>
-                                    <div class="bg-blue-50 border-l-4 border-primary p-4 rounded-r-lg">
-                                        <p class="text-sm italic text-gray-900">The mosque experienced variuos changes of the village.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div></span>
-    <div class="circle circle-12"></div>
-    <div class="circle circle-11"></div>
-    <div class="circle circle-10"></div>
-    <div class="circle circle-9"></div>
-    <div class="circle circle-8"></div>
-    <div class="circle circle-7"></div>
-    <div class="circle circle-6"></div>
-    <div class="circle circle-5"></div>
-    <div class="circle circle-4"></div>
-    <div class="circle circle-3"></div>
-    <div class="circle circle-2"></div>
-    <div class="circle circle-1"></div>
-  </div>
-</button>
-                   
-            <!-- Timeline Item 5 -->
-             <button class="uiverse">
-  <div class="wrapper22">
-    <span ><div class="bgblue">
-                      <div class="card">
-                    <div class="timeline-item relative pl-16">
-                        <div class="timeline-dot">
-                            <i class="ri-earth-line"></i>
-                        </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-900">Thonniyil sree mahadeva temple</h3>
-                            <div class="flex flex-col md:flex-row gap-6">
-                                <div class="md:w-1/3">
-                                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq55QJimuVcKimommtsaCz6C21RyUARV9WXpxFJBfOjr6EQu1NeWgwnQWul1G59tEZoOWZKQDyB2PRtOz5DqL1EQQCqTB5zJupaa63xgdBe2cHPkD7quxMNUHOmnvVncRyXiSib=s1360-w1360-h1020-rw" alt="thonniyil temple" class="w-full h-auto rounded-lg object-cover shadow-md">
-                                </div>
-                                <div class="md:w-2/3">
-                                    <p class="mb-4 text-gray-900">Thonniyil temple is an oldest and largest temple in the Poocholamadu region.</p>
-                                    <div class="bg-blue-50 border-l-4 border-primary p-4 rounded-r-lg">
-                                        <p class="text-sm text-gray-900 italic">The temple was the center of protests against British.People gathered here to study gaurilla war and to fight against the British.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div></span>
-    <div class="circle circle-12"></div>
-    <div class="circle circle-11"></div>
-    <div class="circle circle-10"></div>
-    <div class="circle circle-9"></div>
-    <div class="circle circle-8"></div>
-    <div class="circle circle-7"></div>
-    <div class="circle circle-6"></div>
-    <div class="circle circle-5"></div>
-    <div class="circle circle-4"></div>
-    <div class="circle circle-3"></div>
-    <div class="circle circle-2"></div>
-    <div class="circle circle-1"></div>
-  </div>
-</button>
-                     
-            </div>
+          </div>
         </div>
-    </section>
-</div>
-                      </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="col-lg-10 timeline-card">
+        <h3>Geography</h3>
+        <div class="row align-items-center">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <img src="m5.png" alt="Geography" class="timeline-img">
+          </div>
+          <div class="col-md-8">
+            <p>Poocholamad is 2.065 km from Vengara and 1.36816 km from Achanambalam town. It borders Cheroor, Vettuthod, Gandhikunnu, Muttumpuram, and Achanambalam.</p>
+            <div class="highlight-box">
+              The village is mainly a slope from west to east.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="col-lg-10 timeline-card">
+        <h3>Towered Up History</h3>
+        <div class="row align-items-center">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <img src="https://th-i.thgim.com/public/news/national/kerala/1c9v03/article37450640.ece/alternates/LANDSCAPE_1200/12tvki-masjid" alt="Participation in War" class="timeline-img">
+          </div>
+          <div class="col-md-8">
+            <p>Poocholamadu has a great history of participation in the Indian Independence war.</p>
+            <div class="highlight-box">
+              Many sacrifices and deaths happened in Poocholamadu. Remains are preserved by social groups.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="col-lg-10 timeline-card">
+        <h3>Jama Masjid</h3>
+        <div class="row align-items-center">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcY6VQ5HTOgVTiqQdP7P5k1zVIGXfaPJvlLG-9q-FYYf-kJQWR6yh39e4j_ix_9Gjtdu0UcVeuqe4X0rnGo66CH7hfVnR2acfhO3fuR2YPM-8YT6NplPRXpccBCzpMpVQwp34ooA=s1360-w1360-h1020-rw" alt="Jama Masjid" class="timeline-img">
+          </div>
+          <div class="col-md-8">
+            <p>The mosque was established in 1915 and witnessed various transformations in the village.</p>
+            <div class="highlight-box">
+              The mosque experienced various changes in the village.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="col-lg-10 timeline-card">
+        <h3>Thonniyil Sree Mahadeva Temple</h3>
+        <div class="row align-items-center">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq55QJimuVcKimommtsaCz6C21RyUARV9WXpxFJBfOjr6EQu1NeWgwnQWul1G59tEZoOWZKQDyB2PRtOz5DqL1EQQCqTB5zJupaa63xgdBe2cHPkD7quxMNUHOmnvVncRyXiSib=s1360-w1360-h1020-rw" alt="Thonniyil Temple" class="timeline-img">
+          </div>
+          <div class="col-md-8">
+            <p>The oldest and largest temple in the Poocholamadu region, a center for protests against British rule.</p>
+            <div class="highlight-box">
+              People gathered here to study guerrilla warfare and fight against the British.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
                       <hr style="height:5px;background-color: black;">
     <!-- Travel Guide Section -->
     <section id="travel-guide" class="py-20" style="background-color:#0C1D31;">
