@@ -80,7 +80,6 @@
 .bgblue {
   background: linear-gradient(135deg, #fffffff5, #3a4b8a, #ffffff98);
   padding: 1px;
-  border-radius: 1.2rem;
   box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
   max-width: 850px;
 }
@@ -1224,22 +1223,6 @@ h5 {
     transform: translate(60px, -32px) translateZ(0);
   }
 }
-
-.cat {
-  padding: 20px;
-  color: white;
-  background: linear-gradient(#212121, #212121) padding-box,
-              linear-gradient(145deg, transparent 0%,#e81cff, #40c9ff) border-box;
-  border: 2px solid transparent;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  transform-origin: right bottom;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  color:white;
-}
-/* From Uiverse.io by ilkhoeri */ 
 .wrapper22 {
   width: 100%;
   position: relative;
@@ -1298,4 +1281,7 @@ h5 {
       rgba(var(--color-card), 0.6) 80%,
       rgba(var(--color-card), 0.9) 100%
     );
+}
+.card89{
+  border: 3px solid linear-gradient(-45deg, red 0%, yellow 100%);
 }
